@@ -7,7 +7,7 @@ const Home = () => {
         margin: '5vh'
       }}
     >
-      <h1>Wilkommen auf Competico, der einzig wahren Standardwebsite</h1>
+      <h1>Wilhkommen auf Competico, die einzig waren Standartuebsaid</h1>
     </div>
   );
 };

@@ -17,7 +17,10 @@ const Navbar = () => {
           </NavLink>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to="/signup">Sign Up</NavBtnLink>
+          <NavBtnLink to="/login">Anmelden</NavBtnLink>
+        </NavBtn>
+        <NavBtn>
+          <NavBtnLink to="/signup">Registrieren</NavBtnLink>
         </NavBtn>
       </Nav>
     </>
