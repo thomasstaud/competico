@@ -1,8 +1,15 @@
 /*TEMP*/
 
+:root {
+    --maincolor: rgb(83, 246, 255);
+}
+
 .form{
-    background-color: white;
+    background-color: transparent;
     border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--maincolor);
     width: 550px;
     margin: 20px auto;
     padding: 20px;
