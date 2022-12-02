@@ -1,15 +1,22 @@
 import React from 'react';
-  
-const Home = () => {
+import TournamentTable from '../components/TournamentTable';
+
+const TOURNAMENTS = [
+  {tournament: "Valorant"},
+  {tournament: "Bad Rats"},
+];
+
+export default function Home() {
   return (
     <div
       style={{
         margin: '5vh'
       }}
     >
-      <h1>Wilhkommen auf Competico, die einzig waren Standartuebsaid</h1>
+      <h1>Willkommen auf Competico, der einzig wahren E-Sports-Turnier-Website</h1>
+
+      <TournamentTable
+        tournaments={TOURNAMENTS} />
     </div>
   );
 };
-  
-export default Home;
