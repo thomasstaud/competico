@@ -1,31 +1,28 @@
 function Tournament({ tournament }) {
-return (
-    <tr>
-    <th colSpan="2">
-        {tournament}
-    </th>
-    </tr>
-);
+    return (
+        <div>
+            <img src={tournament.img} alt="Kein Bild verfügbar"/>
+            <p colSpan="2">
+                {tournament.name}
+            </p>
+        </div>
+    );
 }
 
 export default function TournamentTable({ tournaments }) {
-const rows = [];
+    const rows = [];
 
-tournaments.forEach((tournament) => {
-    rows.push(
-    <Tournament
-        tournament={tournament.tournament} />
+    tournaments.forEach((tournament) => {
+        rows.push(
+        <Tournament
+            tournament={tournament} />
+        );
+    });
+
+    return (
+        <>
+            <h1>Turniere</h1>
+            <div>{rows}</div>
+        </>
     );
-});
-
-return (
-    <table>
-    <thead>
-        <tr>
-        <th>Turniere</th>
-        </tr>
-    </thead>
-    <tbody>{rows}</tbody>
-    </table>
-);
 }
