@@ -1,5 +1,5 @@
 .nav {
-    background: #66b8fa;
+    background: #23496c;
     height: 85px;
     display: flex;
     justify-content: space-between;
@@ -11,13 +11,10 @@
     display: flex;
     align-items: center;
     margin-right: -24px;
-    @media screen and (max-width: 200px) {
-      display: none;
-    }
 }
 
 .nav-link {
-    color: #808080;
+    color: rgba(255, 255, 255, 0.578);
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -34,14 +31,11 @@
     display: flex;
     align-items: center;
     margin-right: 24px;
-    @media screen and (max-width: 200px) {
-      display: none;
-    }
 }
 
 .nav-btn-link {
     border-radius: 4px;
-    background: #808080;
+    background: rgba(255, 255, 255, 0.578);
     padding: 10px 22px;
     color: #000000;
     outline: none;
