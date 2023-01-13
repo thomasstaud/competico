@@ -1,5 +1,5 @@
 import React from 'react';
-import TournamentTable from '../components/TournamentTable';
+import TournamentTable from '../components/TournamentTable/TournamentTable';
 
 const TOURNAMENTS = [
   {name: "Valorant", img: "https://cdn.pocket-lint.com/r/s/970x/assets/images/152432-games-feature-what-is-valorant-a-guide-to-the-free-to-play-fps-with-tips-on-how-to-win-image3-muha6tfgev.jpg"},
