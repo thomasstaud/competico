@@ -1,8 +1,10 @@
+import './TournamentTable.css';
+
 function Tournament({ tournament }) {
     return (
-        <div>
-            <img src={tournament.img} alt="Kein Bild verfügbar"/>
-            <p colSpan="2">
+        <div className="tournament-box">
+            <img className="tournament-img" src={tournament.img} alt="Kein Bild verfügbar"/>
+            <p className="tournament-text" colSpan="2">
                 {tournament.name}
             </p>
         </div>
@@ -22,7 +24,7 @@ export default function TournamentTable({ tournaments }) {
     return (
         <>
             <h1>Turniere</h1>
-            <div>{rows}</div>
+            <div className="tournament-container">{rows}</div>
         </>
     );
 }
