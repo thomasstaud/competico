@@ -1,4 +1,5 @@
 body {
+  overflow-x:hidden;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +12,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.home-container{
+  width: 100vw;
+  height: 80vh;
+  text-align: center;
+}
+
+.home-btn-register {
+  text-align: center;
+  width: 10vw;
+  border-radius: 4px;
+  background: #ffffff;
+  padding: 10px 22px;
+  color: #000000;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  margin-left: 24px;
+}
+
+.home-btn-register:hover {
+  transition: all 0.2s ease-in-out;
+  background: #fff;
+  color: #000000;
+}
+

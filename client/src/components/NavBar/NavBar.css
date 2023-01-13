@@ -12,12 +12,12 @@
     align-items: center;
     margin-right: -24px;
     @media screen and (max-width: 200px) {
-      display: none;
+    display: none;
     }
 }
 
 .nav-link {
-    color: #808080;
+    color: #ffffff;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -41,7 +41,7 @@
 
 .nav-btn-link {
     border-radius: 4px;
-    background: #808080;
+    background: #ffffff;
     padding: 10px 22px;
     color: #000000;
     outline: none;

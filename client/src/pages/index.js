@@ -11,13 +11,13 @@ const TOURNAMENTS = [
 
 export default function Home() {
   return (
-    <div
-      style={{
-        margin: '5vh'
-      }}
-    >
-      <h1>Willkommen auf Competico, der einzig wahren E-Sports-Turnier-Website</h1>
-
+    <div>
+      <div className='home-container'>
+      <h1 className='home-header'>Competico</h1>
+      <h3 className='home-text'>Neueröffnung</h3>
+      <div className='home-background'></div>
+      <div className="home-btn-register" to="/signup">REGISTRIEREN</div>
+      </div>
       <TournamentTable
         tournaments={TOURNAMENTS} />
     </div>
